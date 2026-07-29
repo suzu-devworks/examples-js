@@ -213,10 +213,10 @@ canvas {
 .log-container {
   width: 96vw;
   overflow-y: auto;
+  scroll-behavior: smooth;
   font-family: monospace;
   font-weight: normal;
   line-height: 2rem;
-  scroll-behavior: smooth;
 }
 
 .log-container > * {

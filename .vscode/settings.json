@@ -41,13 +41,10 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "javascript.format.enable": false,
   "markdownlint.config": {
     "MD033": {
       "allowed_elements": ["br"]
     }
   },
-  "stylelint.validate": ["css", "scss"],
-  "typescript.format.enable": false,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "stylelint.validate": ["css", "scss"]
 }
