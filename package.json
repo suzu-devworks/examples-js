@@ -1,5 +1,5 @@
 {
-  "name": "examples-js",
+  "name": "examples-js-vanilla",
   "private": true,
   "type": "module",
   "version": "1.0.0",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suzu-devworks/examples-js.git"
+    "url": "git+https://github.com/suzu-devworks/examples-js-vanilla.git"
   },
   "workspaces": [
     "packages/*"
@@ -48,5 +48,5 @@
     "stylelint-config-standard-scss": "^17.0.0",
     "typescript-eslint": "^8.65.0"
   },
-  "packageManager": "pnpm@10.19.0"
+  "packageManager": "pnpm@10.20.0"
 }
