@@ -1,11 +1,11 @@
-# examples-js
+# examples-js-vanilla
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![CodeQL](https://github.com/suzu-devworks/examples-js-web/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/suzu-devworks/examples-js-web/actions/workflows/github-code-scanning/codeql)
+[![CodeQL](https://github.com/suzu-devworks/examples-js-vanilla/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/suzu-devworks/examples-js-vanilla/actions/workflows/github-code-scanning/codeql)
 
 ## What is the purpose of this repository?
 
-This repository is just my personal playground for learning programming using JavaScript and TypeScript.
+This repository is just my personal playground for learning programming using Vanilla JavaScript and TypeScript.
 
 The content here might actually be helpful to other developers facing similar issues.
 
@@ -22,4 +22,4 @@ However, please keep in mind that this code is based solely on my own perspectiv
 
 You can see some of that movement here.
 
-- [GitHub Pages](https://suzu-devworks.github.io/examples-js/)
+- [GitHub Pages](https://suzu-devworks.github.io/examples-js-vanilla/)
