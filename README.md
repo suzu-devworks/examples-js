@@ -13,13 +13,13 @@ However, please keep in mind that this code is based solely on my own perspectiv
 
 ## Examples
 
-- [examples-web](./packages/examples-web/README.md)
-- [examples-web-visualization](./packages/examples-web-visualization/README.md)
-- [examples-pwa-camera](./packages/examples-pwa-camera/README.md)
-- [examples-express-ejs](./packages/examples-express-ejs/README.md)
+- [examples-web](./packages/web/examples-web/README.md)
+- [examples-web-visualization](./packages/web/examples-web-visualization/README.md)
+- [examples-pwa-camera](./packages/web/examples-pwa-camera/README.md)
+- [examples-express-ejs](./packages/web/examples-express-ejs/README.md)
 
 ## Demo
 
 You can see some of that movement here.
 
-- [GitHub Pages](https://suzu-devworks.github.io/examples-js-web/)
+- [GitHub Pages](https://suzu-devworks.github.io/examples-js/)

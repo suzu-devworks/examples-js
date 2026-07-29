@@ -1,14 +1,14 @@
 {
-  "name": "examples-js-web",
+  "name": "examples-js",
   "private": true,
   "type": "module",
   "version": "1.0.0",
   "author": "A.suzuki <suzu.devworks@gmail.com>",
-  "description": "Workspace for studying javascript web programming.",
+  "description": "Workspace for studying javascript programming.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suzu-devworks/examples-js-web.git"
+    "url": "git+https://github.com/suzu-devworks/examples-js.git"
   },
   "workspaces": [
     "packages/*"

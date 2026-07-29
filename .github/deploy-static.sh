@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-SOURCE='../packages'
+SOURCE='../packages/web'
 DIST=`pwd`
 
 EXCLUDE={'*.md','file1.txt','dir1/*','dir2'}
@@ -10,7 +10,7 @@ OPTION='-avr'
 # rsync ${OPTION} --exclude ${EXCLUDE} ${SOURCE}/_root/ ${DIST}
 
 # static projects
-rsync ${OPTION} --exclude ${EXCLUDE} ${SOURCE}/index.html ${DIST}/
+rsync ${OPTION} --exclude ${EXCLUDE} ${SOURCE}/public/index.html ${DIST}/
 rsync ${OPTION} --exclude ${EXCLUDE} ${SOURCE}/examples-web/dist/ ${DIST}/examples-web/
 rsync ${OPTION} --exclude ${EXCLUDE} ${SOURCE}/examples-pwa-camera/ ${DIST}/examples-pwa-camera/
 rsync ${OPTION} --exclude ${EXCLUDE} ${SOURCE}/examples-web-visualization/public/ ${DIST}/examples-web-visualization/
