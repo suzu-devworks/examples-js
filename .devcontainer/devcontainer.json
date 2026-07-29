@@ -1,15 +1,26 @@
 {
-  "name": "DevContainer for Node.js",
+  "name": "TypeScript (Node.js)",
   "dockerComposeFile": [
-    "compose.develop.yaml"
+    "compose.dev.yaml"
   ],
   "service": "dev",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "mounts": [
     "source=node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ],
-  "postCreateCommand": "sudo chown node node_modules",
-  "remoteUser": "node",
+  "postCreateCommand": "/bin/sh ./.devcontainer/postCreateCommand.sh",
+  "remoteUser": "vscode",
+  "features": {
+    "ghcr.io/devcontainers/features/copilot-cli": {},
+    "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/node": {
+      "nodeGypDependencies": true,
+      "version": "26",
+      "npmVersion": "latest",
+      "pnpmVersion": "latest",
+      "nvmVersion": "latest"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
