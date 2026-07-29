@@ -7,18 +7,18 @@
     "debug": "nodemon"
   },
   "dependencies": {
-    "@primer/css": "^22.0.2",
+    "@primer/css": "^22.3.0",
     "cookie-parser": "~1.4.7",
     "debug": "^4.4.3",
-    "ejs": "^3.1.10",
-    "express": "^5.2.0",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
     "express-dart-sass": "^1.0.4",
-    "express-session": "^1.18.2",
-    "http-errors": "^2.0.0",
+    "express-session": "^1.19.0",
+    "http-errors": "^2.0.1",
     "morgan": "^1.11.0",
-    "sass": "^1.93.2"
+    "sass": "^1.102.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.14"
   }
 }

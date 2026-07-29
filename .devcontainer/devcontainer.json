@@ -1,13 +1,9 @@
 {
   "name": "TypeScript (Node.js)",
-  "dockerComposeFile": [
-    "compose.dev.yaml"
-  ],
+  "dockerComposeFile": ["compose.dev.yaml"],
   "service": "dev",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "mounts": [
-    "source=node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
-  ],
+  "mounts": ["source=node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"],
   "postCreateCommand": "/bin/sh ./.devcontainer/postCreateCommand.sh",
   "remoteUser": "vscode",
   "features": {
