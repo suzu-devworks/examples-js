@@ -67,7 +67,7 @@ jobs:
         run: mkdir artifact && cd artifact && sh ../.github/actions/deploy-static.sh
         shell: sh
       - name: upload-pages-artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: artifact
       - name: Deploy to GitHub Pages
